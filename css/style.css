@@ -1,0 +1,30 @@
+h1{
+    margin: auto;
+    width: fit-content;
+}
+
+
+img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: .625rem;
+}
+
+button{
+position: relative;
+left: 45%;
+top: 20px;
+}
+
+p{
+    font-size: 32px;
+    padding: 0 40px;
+    text-align: center;
+    line-height: 2;
+    color: rgb(98, 128, 128);
+}
+
+span{
+    font-size: 1.25rem;
+    color: aqua;
+}

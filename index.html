@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/css bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-black text-white">
+    <h1 class="mt-4">Quote of the Day</h1>
+    <button onclick="generateQuote()" class="btn btn-info">New Quote</button>
+
+    <div class="container py-5 mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="photo">
+            <img src="images/33394.jpg" alt="" id="quoteImage" />
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="content p-5">
+            <p id="quoteText">
+              “Twenty years from now you will be more disappointed by the things
+              that you didn't do than by the ones you did do. So throw off the
+              bowlines. Sail away from the safe harbor. Catch the trade winds in
+              your sails. Explore. Dream. Discover.”
+            </p>
+            <span id="quoteAuthor">― H. Jackson Brown Jr.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap/js/js bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
